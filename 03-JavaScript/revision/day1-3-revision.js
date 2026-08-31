@@ -126,3 +126,10 @@ const getTopStudents = (students) => {
     
 };
 console.log("TopStudents:", getTopStudents(students));
+
+
+// Extra practice — optional chaining
+const firstStudentCity = students[0]?.address?.city ?? "City not available";
+
+console.log("First Student City:", firstStudentCity);
+
