@@ -133,3 +133,6 @@ const firstStudentCity = students[0]?.address?.city ?? "City not available";
 
 console.log("First Student City:", firstStudentCity);
 
+
+// Revision complete
+console.log("JavaScript Days 1-3 revision completed!");
